@@ -19,6 +19,9 @@ def intro_animation():
     time.sleep(1)
 
     big_text("DDOSER", Fore.GREEN)
+    time.sleep(1)
+
+    big_text("TEAM FSY", Fore.WHITE)
     time.sleep(2)
    
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -26,6 +29,7 @@ def intro_animation():
 intro_animation()
 
 big_text("PRIME", Fore.RED)
+
 
 print(Fore.RED + "WELCOME TO PRIME DDOSER — V3")
 
