@@ -25,4 +25,5 @@ npm i cloudflare-bypasser
 ulimit -n 999999
 chmod 777 *
 chmod +x hulk
+cd PRIME-DDOS
 python prime.py
