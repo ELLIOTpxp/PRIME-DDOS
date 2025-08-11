@@ -23,6 +23,13 @@ import (
 
 const __version__ = "1.0.1-PRIME"
 
+const (
+ callExitOnErr uint8 = iota
+ callExitOnTooManyFiles
+ callGotOk
+ targetComplete
+)
+
 const acceptCharset = "ISO-8859-1,utf-8;q=0.7,*;q=0.7"
 
 var (
