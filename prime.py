@@ -34,4 +34,4 @@ target = input(Fore.RED + "TARGET URL —> ")
 if not target:
          print("Target Url Can't be Empty")
 else:
-     os.system(f'./Hulk PRIME {target} GET')
+     os.system(f'./hulk.go PRIME {target} GET')
