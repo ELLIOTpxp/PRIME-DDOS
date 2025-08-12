@@ -1,7 +1,6 @@
 termux-setup-storage
 apt-get update -y && apt-get install upgrade -y
 pkg install git
-git clone https://github.com/ELLIOTpxp/PRIME-DDOS.git
 apt install golang
 apt install python
 apt install python-pip
@@ -24,6 +23,6 @@ npm i cluster
 npm i cloudflare-bypasser
 ulimit -n 999999
 chmod 777 *
-chmod +x hulk
 cd PRIME-DDOS
+chmod +x hulk
 python prime.py
